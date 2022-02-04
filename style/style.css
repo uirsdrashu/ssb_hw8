@@ -1,0 +1,314 @@
+/*Header Start*/
+* {
+  margin: 0 ;
+  padding: 0 ;
+}
+
+body {
+  color: white;
+  font-family: sans-serif;
+}
+
+header {
+ background-color: #121B2A;
+ padding: 10px 0;
+
+}
+.wrapper {  
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logo {
+  width: 15%;
+  float: left;
+}
+.logo img {
+ width: 100%;
+
+}
+.menu {
+  width: 70%;
+  float: right;
+}
+
+.menu ul {
+  float: right;
+  font-family: sans-serif;
+  font-size: 15px;
+
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+  margin-top: 13px;
+
+}
+.menu ul li a {
+  text-decoration: none;
+  padding: 15px 15px;
+  display: block;
+  color: white;
+  transition: .5s;
+}
+
+.menu ul li:last-child a {
+  padding-right: 0;
+}
+
+.menu ul li a:hover {
+  color: #0078BD;
+}
+
+/*Header End*/
+
+/*Banner Start*/
+
+.banner {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.banner_content {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width: 50%;
+  margin-left: 0;
+}
+.banner_content p:first-child {
+  font-family: sans-serif;
+  font-size: 38px;
+  color: white;
+}
+.banner_content h1 {
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #0078BD;
+}
+.banner_content p:nth-last-child(2) {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  word-spacing: 1;
+  color: white;
+}
+
+.banner_content button {
+  border: none;
+  margin-top: 25px;
+  padding: 10px 20px;
+  border-radius:4px;
+  color: #0078BD;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.banner_content button span {
+  background-color: #0078BD;
+  padding: 5px 7px;
+  border-radius: 50%;
+  color: white;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+/*Banner End*/
+/*Service Start*/
+.service {
+  background-color: #121B2C;
+  margin: 0;
+  padding: 50px 0;
+}
+.service_one {
+  width: 30%;
+  padding: 10px;
+  float: left;
+  margin: px 20px 0 0;
+  margin-right: 20px;
+  border-right: 1px solid #0078BD;
+}
+
+.title {
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.icon {
+  width: 25%;
+  float: left;
+}
+.icon img {
+  width: 100%;
+}
+.icon_content {
+  width: 55%;
+  float: left;
+  margin-top: 12px;
+}
+.icon_content h1 {
+  Color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.icon_content h2 {
+  color: #0078BD;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.content p {
+  color: white;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.service_one:last-child {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/*Service End*/ 
+
+/*About Company, Testimonials & apps Start*/
+.about {
+  background-color: #040811;
+  overflow: hidden;
+}
+
+.about_content {
+  font-family: sans-serif;
+  margin: 60px 0;
+  margin-left: 65px;
+  width: 28%;
+  float: left;
+}
+
+.address h3 {
+  color: white;
+  font-weight: 400;
+}
+
+.address h3 span {
+  color: #0078BD;
+  font-weight: 600;
+}
+
+.address address{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+address p a {
+  color: #0078BD;
+}
+
+.testimonial {
+  margin: 50px 0;
+  margin-left: 20px;
+  float: left;
+  width: 28%;
+  color: white;
+}
+
+.testimonial h3 {
+  font-weight: 400;
+}
+
+.testimonial h3 span {
+  color: #0078BD;
+  font-weight: 600;
+}
+
+.testimonial p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.app {
+  width: 30%;
+  margin: 40px 0;
+  margin-left: 20px;
+  float: left;
+}
+.app img {
+  float: left;
+}
+.mobile {
+  float: left;
+}
+.mobile h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.mobile h3 span {
+  font-weight: 600;
+  display: block;
+  color: #0078BD;
+}
+/*About Company, Testimonials & apps End*/
+/*Footer Start*/
+footer {
+  background-color: #121B2C;
+}
+
+.last_menu {
+  width: 60%;
+  float: left;
+}
+
+.last_menu ul {
+  float: left;
+  margin-left: 70px;
+
+}
+.last_menu ul li {
+  list-style: none;
+  float: left;
+  margin-top: 35px;
+  margin-bottom: 20px;
+
+}
+.last_menu ul li a {
+  font-size: 13px;
+  text-decoration: none;
+  padding: 0px 15px;
+  color: white;
+  transition: .5s;
+  border-right: solid 1px white;
+}
+
+.last_menu ul li:last-child a {
+  padding-right: 0;
+  border: none;
+  margin-right: 0;
+}
+
+.last_menu ul li a:hover {
+  color: #0078BD;
+}
+
+footer p {
+  font-size: 13px;
+  margin-left: 85px;
+  display: inline-block;
+}
+
+footer .footer_img {
+  width: 30%;
+  overflow: hidden;
+}
+
+.footer_img {
+  width: 100%;
+  float: right;
+  margin: 20px 70px 40px 0;
+}
